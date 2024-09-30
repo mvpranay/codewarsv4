@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/mvpranay/codewars-v4/engine/main.py", line 297, in run_game
+    n = self.__rscript.ActPirate(pirate_i)
+  File "/home/mvpranay/codewars-v4/scriptred.py", line 278, in ActPirate
+    a = spread(pirate)
+  File "/home/mvpranay/codewars-v4/scriptred.py", line 33, in spread
+    sorted_pir = int(pirate.getID()) % 3
+ValueError: invalid literal for int() with base 10: ''
